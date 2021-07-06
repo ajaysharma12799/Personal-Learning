@@ -1,0 +1,41 @@
+.heading {
+  text-align: center;
+}
+
+.p1, .p2 {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  color: red;
+}
+
+.p2 {
+  color: blue;
+}
+
+nav {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav ul li {
+  list-style: none;
+  color: #fff;
+}
+
+nav ul li:hover {
+  color: yellow;
+  background-color: pink;
+  padding: 30px;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
