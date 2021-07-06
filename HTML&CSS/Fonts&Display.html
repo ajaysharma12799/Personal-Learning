@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonts & Display</title>
+    <style>
+        .box1 {
+            width: 350px;
+            height: 350px;
+            color: white;
+            background-color: red;
+            font-size: 25px;
+            display: inline;
+        }
+        .box2 {
+            width: 350px;
+            height: 350px;
+            color: white;
+            background-color: blue;
+            font-size: 25px;
+            display: inline-block;
+            /* margin-left: 350px; */
+        }
+        .text {
+            /* text-decoration: line-through; */
+            text-transform: uppercase;
+            margin: 0 auto;
+            width: 350px;
+            height: 250px;
+            color: #fff;
+            padding: 10px;
+            margin-top: 10px;
+            background-color: black;
+            /* line-height: 30px; */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">Lorem ipsum, dolor</div>
+    <div class="box2">Lorem ipsum dolor sit</div>
+    <div class="text">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam quod deleniti libero enim nihil, quidem nam harum, doloremque eligendi soluta asperiores cupiditate velit, fuga nemo? Est veritatis non cupiditate accusamus.</p>
+    </div>
+</body>
+</html>
+<!--  
+    Different display Properties :-
+    1. inline => Will Take height and width according to content
+    2. block => Will Take Full Height and Width
+    3. inline-block => Simillar to inline Element, We Can use Height, Width, Margin and Padding
+    4. none => Element is Removed From DOM
+    5. visibility: hidden => Space is Reserved But Element is Hidden
+-->

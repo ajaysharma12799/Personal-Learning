@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid & Media Query</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            grid-gap: 50px 50px;
+            grid-template-columns: auto auto auto auto auto;
+            justify-items: center;
+            background-color: yellow;
+        }
+        .item1 {
+            width: 150px;
+            height: 100px;
+            background-color: red;
+            color: white;
+            text-align: center;
+        }
+        .item2 {
+            width: 150px;
+            height: 100px;
+            background-color: blue;
+            color: white;
+            text-align: center;
+        }
+        .item3 {
+            width: 150px;
+            height: 100px;
+            background-color: orange;
+            color: white;
+            text-align: center;
+        }
+        .item4 {
+            width: 150px;
+            height: 100px;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        .item5 {
+            width: 150px;
+            height: 100px;
+            background-color: teal;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+    </div>
+</body>
+</html>
+<!--  
+    grid-row-gap => Space between row (Property is Old, avoid using it)
+    grid-column-gap => Space between column (Property is Old, avoid using it)
+    grid-gap: row col => Space between row and column (New Property)
+    grid-row: 1/3 => To Acquire Space of Row From 1 to 3
+    grid-column: 1/3 => To Acquire Space of Column From 1 to 3
+-->

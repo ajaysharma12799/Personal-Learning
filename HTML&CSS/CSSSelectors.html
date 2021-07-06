@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Normal Selector */
+        body {
+            background-color: antiquewhite;
+            color: black;
+        }
+        /* Element Selector */
+        h1 {
+            font-size: 20px;
+        }
+        /* Class Selector */
+        .active {
+            background-color: red;
+            color: white;
+        }
+        /* ID Selector */
+        #first {
+            font-weight: bold;
+        }
+        p.red {
+            color: teal;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptate dolore cupiditate sit minima totam
+            fugit fugiat ad nostrum expedita.</p>
+    </div>
+</body>
+
+</html>
+<!--  
+    Note :- Inline Style Will Have More Preference, After then External Style Sheet
+    Note :- Style Tag in head will have less preference than External Style Sheet
+-->
